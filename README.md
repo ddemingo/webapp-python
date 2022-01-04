@@ -9,8 +9,8 @@ You can browse this project hosted on Azure: [http://smx-1687.azurewebsites.net/
 The `venv` module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories
 
 ```sh
-sudo apt install python3-venv    # If needed
-python -m venv .venv
+$ sudo apt-get install python3-venv
+$ python3 -m venv .venv
 ```
 
 Activate the virtual environment:
@@ -28,7 +28,7 @@ $
 ### Install requirements
 
 ```sh
-(.venv) $ python -m pip install --upgrade pip
+(.venv) $ python3 -m pip install --upgrade pip
 (.venv) $ pip install -r requirements_dev.txt
 ```
 
