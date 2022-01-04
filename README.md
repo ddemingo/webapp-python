@@ -2,40 +2,18 @@
 
 You can browse this project hosted on Azure: [http://smx-1687.azurewebsites.net/](http://smx-1687.azurewebsites.net/)
 
-## Development
+## Getting started
 
-### Virtual environment
+Create a Github account, connect with ssh, and fork this project. To know how to it go to: [Tools/Github](https://github.com/ddemingo/tools/blob/main/github.md)
 
-The `venv` module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories
+To know more about pyhton go to: [https://github.com/ddemingo/asix-2/](https://github.com/ddemingo/asix-2/)
 
 ```sh
-$ sudo apt-get install python3-venv
+$ sudo apt install python3-venv
 $ python3 -m venv .venv
-```
-
-Activate the virtual environment:
-```sh
 $ source .venv/bin/activate
-(.venv) $
-```
-
-You can deactivate the virtual environment:
-```sh
-(.venv) $ deactivate
-$
-```
-
-### Install requirements
-
-```sh
 (.venv) $ python3 -m pip install --upgrade pip
 (.venv) $ pip install -r requirements_dev.txt
-```
-
-### Run the Wep App
-
-To run our development server, execute `flask run`:
-```sh
 (.venv) $ flask run
 * Environment: production
   ...
