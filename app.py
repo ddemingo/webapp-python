@@ -25,9 +25,3 @@ def get_news():
         publication = query
     feed = feedparser.parse(RSS_FEEDS[publication])
     return render_template("news.html", articles=feed['entries'])
-
-@app.route("/bootstrap/", defaults = {'template':'index'})
-@app.route("/bootstrap/<template>")
-def get_bootstrap(template):
-    
-    return render_template(f"bootstrap/{template}.html")

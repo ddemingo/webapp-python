@@ -1,6 +1,6 @@
 # README
 
-You can browse this project hosted on Google Cloud: [http://smx-1687.azurewebsites.net/](http://smx-1687.azurewebsites.net/)
+You can browse this project hosted on Google Cloud: [https://webapp-python3.ew.r.appspot.com](https://webapp-python3.ew.r.appspot.com)
 
 ## Getting started
 
@@ -36,5 +36,7 @@ $ flask run
 ```
 
 Fire up a web browser and navigate to `http://localhost:5000`
+
+
 
 
