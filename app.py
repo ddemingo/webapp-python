@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def get_roo():
+def get_root():
     return render_template("home.html")
 
 
@@ -15,7 +15,6 @@ RSS_FEEDS = {'bbc': 'http://feeds.bbci.co.uk/news/rss.xml',
              'cnn': 'http://rss.cnn.com/rss/edition.rss',
              'fox': 'http://feeds.foxnews.com/foxnews/latest',
              'iol': 'https://rss.iol.io/iol/news'}
-
 
 @app.route("/news/")
 def get_news():
@@ -26,3 +25,9 @@ def get_news():
         publication = query
     feed = feedparser.parse(RSS_FEEDS[publication])
     return render_template("news.html", articles=feed['entries'])
+
+@app.route("/bootstrap/", defaults = {'template':'index'})
+@app.route("/bootstrap/<template>")
+def get_bootstrap(template):
+    
+    return render_template(f"bootstrap/{template}.html")
