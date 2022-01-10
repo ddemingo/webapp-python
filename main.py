@@ -25,3 +25,5 @@ def get_news():
         publication = query
     feed = feedparser.parse(RSS_FEEDS[publication])
     return render_template("news.html", articles=feed['entries'])
+
+

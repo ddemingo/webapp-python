@@ -1,6 +1,6 @@
 __pycache__/
 .venv
+.flaskenv
 .git
 .gitignore
-requirements_dev.txt
 README.md

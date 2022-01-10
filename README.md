@@ -13,7 +13,7 @@ If you don't have sudo rights, then add `~/.local/bin` to your `$PATH` (if neede
 ```sh
 $ echo 'export PATH="$HOME/.local/bin:$PATH"' >> $HOME/.bash_profile
 $ source $HOME/.bash_profile
-$ pip install --user -r requirements_dev.txt
+$ pip install --user -r requirements.txt
 ```
 
 If you have sudo rights, use a virtual environment:
@@ -23,7 +23,7 @@ $ sudo apt install python3-venv
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 (.venv) $ python3 -m pip install --upgrade pip
-(.venv) $ pip install -r requirements_dev.txt
+(.venv) $ pip install -r requirements.txt
 ```
 
 Start the web app:
