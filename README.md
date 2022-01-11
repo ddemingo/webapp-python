@@ -7,7 +7,7 @@ You can browse this project hosted on Google Cloud: [https://webapp-python3.ew.r
 Clone this project:
 
 ```sh
-$ git config http.sslVerify "false" # only at school!
+$ git config --global http.sslVerify "false" # only at school!
 $ git clone https://github.com/ddemingo/webapp-python.git
 ```
 
