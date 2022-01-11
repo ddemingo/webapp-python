@@ -4,6 +4,13 @@ You can browse this project hosted on Google Cloud: [https://webapp-python3.ew.r
 
 ## Getting started
 
+Clone this project:
+
+```sh
+$ git config http.sslVerify "false" # only at school!
+$ git clone https://github.com/ddemingo/webapp-python.git
+```
+
 If you don't have sudo rights, then add `~/.local/bin` to your `$PATH` (if needed) and install 
 
 ```sh
