@@ -14,19 +14,21 @@ $ git clone https://github.com/ddemingo/webapp-python.git
 If you don't have sudo rights, then add `~/.local/bin` to your `$PATH` (if needed) and install 
 
 ```sh
-$ echo 'export PATH="$HOME/.local/bin:$PATH"' >> $HOME/.bash_profile
-$ source $HOME/.bash_profile
-$ pip install --user -r requirements.txt
+$ echo 'export PATH="$HOME/.local/bin:$PATH"' >> $HOME/.bashrc
+$ source $HOME/.bashrc
+$ cd webapp-python
+$ pip install --user -r requirements-dev.txt
 ```
 
 If you have sudo rights, use a virtual environment:
 
 ```sh
 $ sudo apt install python3-venv
+$ cd webapp-python
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 (.venv) $ python3 -m pip install --upgrade pip
-(.venv) $ pip install -r requirements.txt
+(.venv) $ pip install -r requirements-dev.txt
 ```
 
 Start the web app:
