@@ -8,7 +8,13 @@ app = Flask(__name__)
 
 @app.route("/")
 def get_root():
-    return render_template("home.html")
+    return render_template("index.html")
+
+@app.route("/biodiversity/", defaults = {'template':'index'})
+@app.route("/biodiversity/<template>")
+def get_bootstrap(template):
+    
+    return render_template(f"biodiversity/{template}.html")
 
 
 RSS_FEEDS = {'bbc': 'http://feeds.bbci.co.uk/news/rss.xml',
