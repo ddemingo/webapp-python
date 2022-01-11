@@ -49,7 +49,20 @@ Fire up a web browser and navigate to `http://localhost:5000`
 [Templates](https://jinja.palletsprojects.com/en/3.0.x/templates/). Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.
 
 
+## Deploy
 
+You can deploy this app to [Google Cloud](https://console.cloud.google.com).
 
+First, create a project:
 
+```sh
+$ gcloud auth login
+$ gcloud projects create <project-id>
+$ gcloud config set project <project-id>
+```
 
+Deploy this app:
+
+```sh
+$ gcloud app deploy
+```
