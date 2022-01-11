@@ -61,7 +61,7 @@ $ gcloud projects create <project-id>
 $ gcloud config set project <project-id>
 ```
 
-Deploy this app:
+Deploy the app:
 
 ```sh
 $ gcloud app deploy
