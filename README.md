@@ -1,7 +1,5 @@
 # README
 
-You can browse this project hosted on Google Cloud: [https://webapp-python3.ew.r.appspot.com](https://webapp-python3.ew.r.appspot.com)
-
 ## Get started
 
 Clone this project:
