@@ -1,0 +1,12 @@
+# HTML
+
+To build websites, you should know about [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML) — the fundamental technology used to define the structure of a webpage. HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, multimedia player, form, or one of many other available elements or even a new element that you define
+
+[Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML). At its heart, [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML) is a fairly simple language made up of  [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element), which can be applied to pieces of text to give them different meaning in a document (Is it a paragraph? Is it a bulleted list? Is it part of a table?), structure a document into logical sections (Does it have a header? Three columns of content? A navigation menu?), and embed content such as images and videos into a page. This module will introduce the first two of these and introduce fundamental concepts and syntax you need to know to understand HTML.
+
+[Multimedia and Embedding](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding). This module explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to embed video, audio, and even entire webpages.
+
+[HTML Tables](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables). A very common task in HTML is structuring tabular data, and it has a number of elements and attributes for just this purpose. HTML makes it easy to display tables of information on the web such as your school lesson plan, the timetable at your local swimming pool, or statistics about your favorite dinosaurs or football team. This module takes you through all you need to know about structuring tabular data using HTML.
+
+[Web Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms). Web forms are a very powerful tool for interacting with users — most commonly they are used for collecting data from users, or allowing them to control a user interface. However, for historical and technical reasons it's not always obvious how to use them to their full potential. We'll cover all the essential aspects of Web forms including marking up their HTML structure, validating form data, and submitting data to the server.
+

@@ -2,13 +2,13 @@
 
 You can browse this project hosted on Google Cloud: [https://webapp-python3.ew.r.appspot.com](https://webapp-python3.ew.r.appspot.com)
 
-## Getting started
+## Get started
 
 Clone this project:
 
 ```sh
 $ git config --global http.sslVerify "false" # only at school!
-$ git clone https://github.com/ddemingo/webapp-python.git
+$ git clone https://github.com/lamerce/webapp-python.git
 ```
 
 If you don't have sudo rights, then add `~/.local/bin` to your `$PATH` (if needed) and install 
@@ -40,29 +40,17 @@ $ flask run
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
-Fire up a web browser and navigate to `http://localhost:5000`
+Fire up a web browser and navigate to [http://localhost:5000](http://localhost:5000)
 
 ## Documentation
 
-[Flask](https://flask.palletsprojects.com/en/2.0.x/quickstart/). Flask is a micro web framework written in Python.
+[HTML](docs/html.md). To build websites, you should know about [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML) — the fundamental technology used to define the structure of a webpage. HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, multimedia player, form, or one of many other available elements or even a new element that you define
 
-[Templates](https://jinja.palletsprojects.com/en/3.0.x/templates/). Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.
+[CSS](docs/css.md). It's a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+
+[Bootstrap](docs/bootstrap.md). It's a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+
+[Python](docs/python.md). Python is a programming language that lets you work quickly and integrate systems more effectively.
 
 
-## Deploy
 
-You can deploy this app to [Google Cloud](https://console.cloud.google.com).
-
-First, create a project:
-
-```sh
-$ gcloud auth login
-$ gcloud projects create <project-id>
-$ gcloud config set project <project-id>
-```
-
-Deploy the app:
-
-```sh
-$ gcloud app deploy
-```
