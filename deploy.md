@@ -1,4 +1,6 @@
-# Deploy
+---
+title: "Deploy"
+---
 
 ## Google Cloud
 
