@@ -4,3 +4,7 @@
   link: /html
 - name: CSS
   link: /css
+- name: Flask
+  link: /flask
+- name: VSCode
+  link: /vscode
