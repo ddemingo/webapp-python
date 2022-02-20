@@ -1,7 +1,2 @@
-__pycache__/
-_site/
-.bundle/
-.venv/
-vendor/
-.jekyll-metadata
-Gemfile.lock
+/__pycache__
+/.venv
