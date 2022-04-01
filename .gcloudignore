@@ -1,5 +1,7 @@
 /__pycache__
-.venv
+/.venv
+/deploy
+/doc
 .flaskenv
 .git
 .gitignore
