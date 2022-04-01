@@ -40,6 +40,15 @@ $ flask run
 
 Fire up a web browser and navigate to [http://localhost:5000](http://localhost:5000)
 
+Test `user` url endpoint:
+```sh
+$ curl -v http://localhost:5000/user/1
+{
+  "1": "david"
+}
+```
+
+
 ## Google cloud
 
 You can browse this project hosted on Google Cloud: [https://webapp-python3.ew.r.appspot.com](https://webapp-python3.ew.r.appspot.com)
