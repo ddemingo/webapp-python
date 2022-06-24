@@ -42,4 +42,5 @@ def user(id):
     user = USERS.get(id)
     return {id: user}
 
-
+if __name__ == '__main__':
+   app.run()

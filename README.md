@@ -48,6 +48,13 @@ $ curl -v http://localhost:5000/user/1
 }
 ```
 
+## Azure
+
+The App Service deployment engine automatically activates a virtual environment and runs pip install -r requirements.txt for you when you deploy a Git repository,
+
+[Configure a Linux Python app for Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python)
+
+https://docs.microsoft.com/en-gb/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-cli%2Cterminal-bash%2Clocal-git-deploy%2Cdeploy-instructions-azcli%2Cdeploy-instructions-zip-azcli
 
 ## Google cloud
 
