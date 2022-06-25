@@ -42,7 +42,7 @@ resource webAppSourceControl 'Microsoft.Web/sites/sourcecontrols@2021-02-01' = {
   }
 }
 
-output appServiceAppHostName string = webApp.properties.defaultHostName
+//output appServiceAppHostName string = webApp.properties.defaultHostName
 
 /*
 
