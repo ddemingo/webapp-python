@@ -27,7 +27,7 @@ resource webApp 'Microsoft.Web/sites@2021-03-01' = {
     httpsOnly: true
     // Configuration of the app.
     siteConfig: {
-      linuxFxVersion: 'PYTHON:3.9'
+      linuxFxVersion: 'PYTHON|3.9'
     }
   }
 }

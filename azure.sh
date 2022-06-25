@@ -19,9 +19,14 @@ case $1 in
     sandbox)
         python -mwebbrowser https://docs.microsoft.com/en-us/learn/modules/host-a-web-app-with-azure-app-service/3-exercise-create-a-web-app-in-the-azure-portal?pivots=python
     ;;
+
+    sync)
+        id=`az webapp list --query '[].id' -o tsv`
+        az webapp deployment source sync --id $id
+    ;;
     
     *)
-        echo "./azure.sh browse | deploy | login | sandbox"
+        echo "./azure.sh browse | deploy | login | sandbox | sync"
     ;;
 
 esac
